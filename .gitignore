@@ -1,0 +1,108 @@
+# =========================
+# 🔹 Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# 🔹 Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# 🔹 Environment Variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# 🔹 Django
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# =========================
+# 🔹 Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# 🔹 VS Code
+# =========================
+.vscode/
+
+# =========================
+# 🔹 PyCharm
+# =========================
+.idea/
+
+# =========================
+# 🔹 Mac / Linux / Windows
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# 🔹 Logs & temp files
+# =========================
+*.log
+*.tmp
+*.swp
+
+# =========================
+# 🔹 ML Models & Data (optional)
+# =========================
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+data/
+datasets/
+models/
+
+# =========================
+# 🔹 Streamlit / Flask
+# =========================
+.streamlit/
+instance/
+
+# =========================
+# 🔹 Coverage & Testing
+# =========================
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+
+# =========================
+# 🔹 Node (if frontend added)
+# =========================
+node_modules/
